@@ -1,0 +1,648 @@
+* {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  html {
+    background-color: #01012b;
+  }
+
+  .container {
+    display:flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+
+  .log-container {
+    display:flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+
+  .title-div {
+    width: max-content;
+  }
+
+  .intro-div {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+  }
+
+  .main-intro-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-intro-div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0 10px 0 420px;
+  }
+
+  .log-body {
+      margin: 0;
+      padding: 0 10px 0 420px;
+  }
+
+  .msd {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    font-size: 5rem;
+    color: #fff300;
+    margin-bottom: 5%;
+  }
+
+  .chap-title {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    font-size: 3rem;
+    color: #fff300;
+    margin-top: 0;
+    width: 100vb;
+  }
+
+  .story-title {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    font-size: 3.5rem;
+    color: #fff300;
+    margin-bottom: 5%;
+  }
+
+  .title-call {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #fff300;
+  }
+
+  .log {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    color: #f5f5f5c3;
+    font-style: italic;
+    font-size: 1rem;
+  }
+
+  .cast {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    color: #f5f5f5c3;
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+
+  .sub-intro {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+    "ncommonJp", sans-serif !important;
+    display: block;
+    color: #f5f5f5c3;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.6rem;
+  }
+
+  .li-mod-text {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    color: #f5f5f5c3;
+    font-size: 1.3rem;
+    padding: 1.5rem 2rem 1.5rem 0;
+  }
+
+  .mod-text {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    color: #f5f5f5c3;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+    padding: 1.5rem 2rem 1.5rem 0;
+  }
+
+  .mod-intro-img {
+    display: flex;
+    width: 470px;
+    height: 394px;
+    border-style: solid;
+    border-color: azure;
+    border-width: 10px;
+    margin: 3.8rem 5rem 0 0 
+  }
+
+  .pre-info {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    color: #fff300;
+    font-size: 3rem;
+    margin: 0;
+    display: block;
+  }
+
+  .pre-info_ {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    color: #fff300;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+
+  .intro-hr {
+    border: 0.5px solid rgba(255, 255, 255, 0.765);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .log-hr {
+    border: 0.5px solid rgba(255, 255, 255, 0.765);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin: 4rem 0 0 0;
+  }
+
+  .eye {
+    width: 60%;
+  }
+
+  .eye-img {
+    width: 50%;
+    border: #fff300 solid 2px;
+    align-self: center;
+  }
+
+  .tat-img {
+    width: 70%;
+  }
+
+  .ho {
+    width: 192px;
+    border-radius: 5%;
+  }
+
+  .ho-table {
+    width: 200px;
+    vertical-align: top;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+
+  .text-div {
+    margin: 0;
+  }
+
+  .title-call-div {
+    border-style: double;
+    border: #fff300 solid 2px;
+    margin: 3rem;
+    padding: 2rem;
+  }
+
+  .text-table {
+    table-layout: fixed;
+    padding: 3rem 3rem 0 0;
+    text-align: justify;
+  }
+
+  .ho1-name {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #009688;
+    border-bottom: #f5f5f5c3 1px solid;
+    padding-bottom: 0.5rem;
+    width: 100vb;
+  }
+
+  .ho2-name {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #cc9cff;
+    border-bottom: #f5f5f5c3 1px solid;
+    padding-bottom: 0.5rem;
+    width: 100vb;
+  }
+
+  .kp-name {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    color: #00b8ff;
+    border-bottom: #f5f5f5c3 1px solid;
+    padding-bottom: 0.5rem;
+    width: 100vb;
+  }
+
+  .npc-name {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #f5f5f5c3;
+    border-bottom: #f5f5f5c3 1px solid;
+    padding-bottom: 0.5rem;
+    width: 100vb;
+  }
+
+  .main-text {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    color: #f5f5f5c3;
+    overflow-wrap: break-word;
+    font-size: 1.2rem;
+    text-align: justify;
+    letter-spacing: 3pt;
+    position: relative;
+    width: auto;
+  }
+
+  .char-info-img {
+    width: 256px;
+    border-radius: 10%;
+    padding-right: 15px;
+  }
+
+  .char-info-border {
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgba(245, 245, 245, 0.5);
+    border-width: thin;
+    padding-bottom: 1.5rem;
+    line-height: 1rem;
+    position: relative;
+    width: auto;
+  }
+
+  .char-info-ap {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    color: #fff300;
+    font-weight: 200;
+    text-align: justify;
+    letter-spacing: 3pt;
+    font-size: 1.3rem;
+    position: relative;
+    padding-top: 2rem;
+    margin: 0;
+  }
+
+  .char-info-table-img {
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+  .char-info-title {
+    color: #fff300;
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    font-size: 2rem;
+  }
+
+  .ending {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    color: #f5f5f5c3;
+    text-align: justify;
+    letter-spacing: 3pt;
+    font-style: italic;
+    font-size: x-large;
+    line-height: 3em;
+  }
+
+  .ending-truth {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", sans-serif !important;
+    color: #f5f5f5c3;
+    text-align: justify;
+    line-height: 2rem;
+    list-style: circle;
+    font-size: 1.2rem;
+    padding:0;
+    margin: 0 0 1.2rem 0;
+  }
+
+  .ending-title {
+    border-left: 10px solid;
+    border-color: #fff300;
+    font-size: 2rem;
+    color: #fff300;
+    padding-left: 1.3rem;
+  }
+
+  .navbar {
+    display: flex;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background: rgb(255, 243, 0);
+    width: 24rem;
+    overflow: hidden;
+    box-shadow: inset 0rem 0rem 1rem 2px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 3000;
+  }
+
+  .nav-item {
+    top: 12px;
+    list-style: none;
+    font-weight: 600;
+    text-shadow: rgba(34, 72, 94, 0.5) 1px 1px 1px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+
+  a {
+    font-family: "Caveat", cursive;
+    position: relative;
+    color: rgba(0, 0, 0, 0.8);
+    display:table;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px;
+    width: 100vb;
+  }
+
+  a:hover {
+    background-color: rgba(210, 196, 0, 0.7);
+    box-shadow: 0rem 0rem 1rem 2px rgba(217, 217, 217, 0.1);
+    color: rgba(0, 184, 255, 1);
+    text-shadow: rgba(255, 255, 255, 0.5) 1px 1px 1px;
+    width: 100vb;
+  }
+
+  .fas {
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+      "ncommonJp", "Caveat", cursive;
+    position: relative;
+    width: 100vb;
+    height: 20px;
+    top: 14px;
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 3rem;
+    padding-left: 3.5rem;
+  }
+
+  .ul-style {
+    font-family: "Caveat", cursive;
+    border: 0;
+    padding-top: 10px;
+    padding-left: 0;
+  }
+
+  .nav-title {
+    display: block;
+    font-family: "Caveat", cursive;
+    color: #fff300;
+    font-weight: 1000;
+    font-size: 5rem;
+    width: 250px;
+    height: 100px;
+    padding-left: 3.3rem;
+    background:
+      linear-gradient(45deg, transparent 0px, rgba(0, 0, 0, 0.8) 0)bottom left,
+      linear-gradient(-45deg, transparent 45px, rgba(0, 0, 0, 0.8) 0)bottom right,
+      linear-gradient(-135deg, transparent 45px, rgba(0, 0, 0, 0.8) 0)top right,
+      linear-gradient(135deg, transparent 0px, rgba(0, 0, 0, 0.8) 0)top left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+  .active {
+    background-color: rgba(210, 196, 0, 0.7);
+    box-shadow: 0rem 0rem 1rem 2px rgba(217, 217, 217, 0.1);
+    color: rgba(0, 184, 255, 1);
+    text-shadow: rgba(255, 255, 255, 0.5) 1px 1px 1px;
+  }
+
+  @media screen and (max-width: 990px){
+    html {
+      margin: 0rem 0rem;
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .intro-body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .log-body {
+      padding:0;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-size: 1.3rem;
+      padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    }
+
+    .text-div {
+      width: 100%;
+    }
+
+    .log-container {
+      display:flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-size: 1.3rem;
+      padding: 1.5rem rem 1.5rem 10rem;
+      }
+
+    .title-div {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
+
+    .msd {
+      align-self: center;
+      font-size: 4rem;
+    }
+
+    .cast {
+      text-align: center;
+    }
+
+    .intro-hr {
+      display: flex;
+      flex-direction: column;
+      margin: 1.5rem auto 1.5rem auto;
+      width: 100%;
+    }
+
+    .log-hr {
+      margin: 1.5rem auto 1.5rem auto;
+      width: 100%;
+    }
+
+    .pre-info {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
+
+    .pre-info_ {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      margin-bottom: 2rem;
+    }
+
+    .mod-intro-img {
+      width: 470px;
+      height: 335px;
+      border-style: solid;
+      border-color: azure;
+      border-width: 10px;
+      margin: 0 0 2.5rem 5.5rem;
+    }
+
+    .intro-div {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
+
+    .mod-text {
+      margin: 0;
+      overflow-wrap: break-word;
+      padding: 1.5rem 2rem 1.5rem 2rem;
+    }
+
+    .li-mod-text {
+      font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+        "ncommonJp", sans-serif !important;
+      color: #f5f5f5c3;
+      font-size: 1.3rem;
+      padding: 1.5rem 2rem 1.5rem 0;
+    }
+
+    .text-table {
+      table-layout:fixed;
+      padding: 5rem 0 0 0;
+      text-align: justify;
+    }
+
+    .chap-title {
+      padding-left: 1rem;
+      width: auto;
+    }
+
+    .story-title {
+      padding-left: 1rem;
+      width: auto;
+    }
+
+    .title-call {
+      font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+        "ncommonJp", sans-serif !important;
+      font-size: 3.5rem;
+      font-weight: 800;
+      color: #fff300;
+    }
+
+    .char-info-title {
+      padding-left: 1rem;
+    }
+
+
+    .ending-title {
+      padding-left: 1rem;
+    }
+
+    .navbar {
+      position: sticky;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      width: 100%;
+      max-height: min-content;
+    }
+
+    .ul-style {
+      padding:0;
+      padding-right: 2rem;
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      letter-spacing: 0;
+      overflow: scroll;
+      align-items: center;
+    }
+
+    .nav-title {
+      font-family: "Caveat", cursive;
+      color: #fff300;
+      font-weight: 1000;
+      font-size: 2.5rem;
+      width: 125px;
+      height: 50px;
+      padding: 2.5rem 4rem 2.5rem 2.5rem;
+      margin-right: 1rem;
+      background:
+        linear-gradient(45deg, transparent 0px, rgba(0, 0, 0, 0.8) 0)bottom left,
+        linear-gradient(-45deg, transparent 45px, rgba(0, 0, 0, 0.8) 0)bottom right,
+        linear-gradient(-135deg, transparent 45px, rgba(0, 0, 0, 0.8) 0)top right,
+        linear-gradient(135deg, transparent 0px, rgba(0, 0, 0, 0.8) 0)top left;
+      background-size: 50% 50%;
+      background-repeat: no-repeat;
+    }
+
+    a:hover {
+      background-color: rgba(210, 196, 0, 0.7);
+      box-shadow: 0rem 0rem 1rem 2px rgba(217, 217, 217, 0.1);
+      color: rgba(0, 184, 255, 1);
+      text-shadow: rgba(255, 255, 255, 0.5) 1px 1px 1px;
+      width: auto;
+      overflow-anchor:none;
+    }
+
+    .fas {
+      font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3",
+        "ncommonJp", "Caveat", cursive;
+      position:relative;
+      font-size: 1.4rem;
+      padding-left: 1px;
+      width: max-content;
+      height: max-content;
+      margin-right: 3rem;
+    }
+    
+  }
